@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOL客户端配置</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WOL客户端配置</h1>
+            <button id="add-client" class="btn btn-primary">添加客户端</button>
+        </header>
+        
+        <main id="client-list">
+            <!-- 客户端配置面板将通过JavaScript动态生成 -->
+        </main>
+        
+        <!-- 日志展示栏 -->
+        <section class="log-section">
+            <div class="log-header">
+                <h2>系统消息日志</h2>
+                <div class="log-actions">
+                    <div class="log-search">
+                        <input type="text" id="log-search" placeholder="搜索日志...">
+                        <select id="log-filter">
+                            <option value="all">所有类型</option>
+                            <option value="info">信息</option>
+                            <option value="success">成功</option>
+                            <option value="error">错误</option>
+                        </select>
+                    </div>
+                    <button id="clear-logs" class="btn btn-danger">清空日志</button>
+                </div>
+            </div>
+            <div id="log-container" class="log-container">
+                <!-- 日志条目将通过JavaScript动态生成 -->
+            </div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

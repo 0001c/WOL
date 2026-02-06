@@ -1,0 +1,12 @@
+# 忽略的文件和目录
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.git/
+.gitignore
+.dockerignore
+README.md
+requirements.txt
