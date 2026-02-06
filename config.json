@@ -1,36 +1,12 @@
 {
   "clients": [
     {
-      "topic": "gkkpc006",
-      "password": "223988",
-      "target_mac": "60-CF-84-E8-63-93",
-      "username": "winrm",
-      "ip": "192.168.31.128",
-      "broadcast_ip": "192.168.31.255"
-    },
-    {
-      "topic": "mnznpc006",
-      "password": "223988",
-      "target_mac": "E8-9C-25-A3-03-28",
-      "username": "winrm",
-      "ip": "192.168.31.69",
-      "broadcast_ip": "192.168.31.255"
-    },
-    {
       "topic": "report003",
-      "target_mac": "E8-9C-25-A3-03-21",
+      "target_mac": "E8-9C-25-A3-13-21",
       "broadcast_ip": "192.168.31.255",
       "ip": "192.168.31.249",
       "username": "1",
       "password": "1"
     },
-    {
-      "topic": "new-client-1770389995503",
-      "target_mac": "E8-9C-25-A3-03-21",
-      "broadcast_ip": "192.168.31.255",
-      "ip": "192.168.31.244",
-      "username": "12",
-      "password": "1"
-    }
   ]
 }
