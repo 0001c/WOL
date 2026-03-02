@@ -2,6 +2,21 @@
 
 一个基于MQTT的WOL（Wake-on-LAN）客户端配置系统，支持远程唤醒和关闭PC功能，并提供Web界面进行配置管理。
 
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/0001c/WOL/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2-3-2026_17523_192.168.31.175.jpeg" />
+</div>
+
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Run the app:
+   `npm run dev`
+
 ## 功能特性
 
 - **远程唤醒**：通过发送WOL幻数据包远程唤醒局域网内的PC
